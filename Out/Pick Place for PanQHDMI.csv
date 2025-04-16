@@ -1,0 +1,38 @@
+﻿Altium Designer Pick and Place Locations
+C:\Users\CHRIS\Downloads\Panasonic Q HDMI\Project Outputs for PanQHDMI\Pick Place for PanQHDMI.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/05/25
+Time:       01:17
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+﻿"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"VR2","TLV70212DBVR","TopLayer","MF05A_TEX","5,6083","8,6081","90",""
+"VR1","LP2980AIM5X-5.0/NOPB","TopLayer","MF05A_TEX","35,7353","13,1318","90",""
+"TP4","Component_1","TopLayer","TP1","5,7582","14,6685","90",""
+"TP3","Component_1","TopLayer","TP1","4,3206","14,6761","90",""
+"TP2","Component_1","TopLayer","TP1","2,8245","14,6838","90",""
+"TP1","Component_1","TopLayer","TP1","1,2903","14,6990","90",""
+"SF1","2.54-1x6P直针","TopLayer","TC2030MCP","8,1864","24,1376","270",""
+"R6","4.7K","TopLayer","RESC2012X50N","16,2255","6,6878","270","Resistor"
+"R5","330R","TopLayer","RESC2012X50N","12,8575","6,6878","90","Resistor"
+"R4","4.7K","TopLayer","RESC2012X50N","31,1480","12,7407","0","Resistor"
+"R3","180R","TopLayer","RESC2012X50N","25,0419","18,6716","90","Resistor"
+"R2","10K","TopLayer","RESC2012X50N","22,6187","18,6995","90","Resistor"
+"R1","10K","TopLayer","RESC2012X50N","20,1676","18,7706","90","Resistor"
+"JMP1","0R(SB)","TopLayer","RESC2012X50N","26,4313","11,9228","270","Resistor"
+"C7","10nf","BottomLayer","RESC2012X50N","34,3637","8,7529","180","Capacitor"
+"C6","100nf","TopLayer","RESC2012X50N","32,3698","16,9647","0","Capacitor"
+"C5","100nf","TopLayer","RESC2012X50N","32,3114","14,9073","0","Capacitor"
+"C4","100nf","TopLayer","RESC2012X50N","32,3291","19,0068","0","Capacitor"
+"C3","100nf","TopLayer","RESC2012X50N","2,0727","8,8799","90","Capacitor"
+"C2","100nf","TopLayer","RESC2012X50N","36,3906","8,7224","0","Capacitor"
+"C1","100nf","TopLayer","RESC2012X50N","36,9512","16,6903","180","Capacitor"
+"CN1","10029449-111RLF","TopLayer","HDMI-SMD_10029449-001RLF","20,4801","26,9673","180",""
+"IC1","AT25DF041B-SSHN-B","BottomLayer","SOIC127P600X175-8N","36,0807","4,4958","180","Integrated Circuit"
+"U1","'","BottomLayer","QFP50P1600X1600X120-100N","20,5004","7,1933","180","Integrated Circuit"
+"CN2","CONN1(FPC)","TopLayer","XF3M122151B","20,3886","0,9841","0","Conn FPC Connector SKT 22 POS 1mm Solder RA SMD Automotive T/R"
