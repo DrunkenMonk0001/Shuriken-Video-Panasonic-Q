@@ -32,11 +32,23 @@ In case they can't be sourced, confirmed suitable replacements for the M25P40 th
 * AT25DF041B
 * W25X40CLSNIG (thanks Helder)
 
+## Programming and usage
+
+Programming can be done via any programmer that supports the \*25 devices such as M25/AT25/AD25/GD25. It's recommended to program the spirom before soldering the FPGA in place to avoid any potential unnecessary overloading of your programmer.
+CH341A is suitable for this also.
+
+The spirom can be flashed either with the shuriken-v3 binary from GCvideo with TP4 being used for controller data, TP3 used for SP/dif audio, TP2 used for the IRReceiver and TP1 used for the IRButton 
+
+OR
+
+It can be flashed using the precompiled panQ binary from the /out directory. The difference here is that TP1 and TP4 have been inverted so that TP1 is the controller data and TP4 is the IRButton as well as the Enhanced DVI mode is enabled by default (for "install and forget" type installs)
+
 ## Thanks
 
 * Original [gcvideo](https://github.com/ikorb/gcvideo) by Ingo Korb
 * Steven Taffs for the original Shuriken Video schematic
 * 3D print assistance By [Helder](https://heldergametech.com/) Helder's Game Tech 
+* PCB+3d Print testing, feedback and tweaking [ModdestlyYours](https://www.etsy.com/shop/moddestlyyours)
 
 ## License
 
